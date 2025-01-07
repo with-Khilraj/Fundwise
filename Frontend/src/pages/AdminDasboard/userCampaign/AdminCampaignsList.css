@@ -1,0 +1,108 @@
+.campaign-list {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-list h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.campaign-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.campaign-list table th,
+.campaign-list table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.campaign-list table th {
+  background: #f0f2f5;
+}
+
+.campaign-list table td {
+  background: #fff;
+}
+
+.campaign-list table td button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.campaign-list table td .edit-button {
+  background: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.campaign-list table td .edit-button:hover {
+  background: white;
+  color: #4caf50;
+}
+
+.campaign-list table td .delete-button {
+  margin-top: 15px;
+  margin-left: 4px;
+  background: #e74c3c;
+  color: white;
+  border: 1px solid #e74c3c;
+}
+
+.campaign-list table td .delete-button:hover {
+  background: white;
+  color: #e74c3c;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-content h3 {
+  margin-bottom: 20px;
+}
+
+.popup-content .popup-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content .popup-button.delete-button {
+  background: #e74c3c;
+  color: white;
+  border: 1px solid #e74c3c;
+}
+
+.popup-content .popup-button.cancel-button {
+  background: #ccc;
+  color: black;
+  border: 1px solid #ccc;
+}

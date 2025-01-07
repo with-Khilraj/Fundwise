@@ -1,0 +1,36 @@
+.campaign-filter {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.campaign-filter input,
+.campaign-filter .react-select__control,
+.campaign-filter button {
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.campaign-filter button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+.btn-search{
+  width: 120px;
+}
+
+.campaign-filter button:hover {
+  background-color: #45a049;
+}
+
+.campaign-filter .react-select__control {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.campaign-filter .react-select__menu {
+  border-radius: 4px;
+}

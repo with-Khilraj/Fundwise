@@ -1,0 +1,38 @@
+/* GuideComponent.css */
+.Guidcontainer {
+      /* Light gray background color */
+    display: flex;        /* Flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;  /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;  /* Make container full height of the viewport */
+  }
+  
+  .title {
+    margin-top: 20px;
+    color: #000;  /* Black color for the title */
+    font-size: 40px;  /* Large font size for visibility */
+     /* Space below the title */
+  }
+  .title2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .imageContainer {
+    
+    margin-top: 50px;
+    width: 100%; /* Full width to manage the image inside */
+  }
+  
+  .fullImage {
+    object-fit: cover;
+    max-width: 1200px; /* Maximum width to prevent the image from being too large */
+    width: 82%; /* Make the image responsive */
+    height: 100vh; /* Maintain aspect ratio */
+  }
+  

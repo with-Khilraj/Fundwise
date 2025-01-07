@@ -1,0 +1,114 @@
+.user-list {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list table th,
+  .user-list table td {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .user-list table th {
+    background: #f0f2f5;
+  }
+  
+  .user-list table td {
+    background: #fff;
+  }
+  
+  .user-list table td button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .user-list table td .edit-button {
+    background: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+  }
+  
+  .user-list table td .edit-button:hover {
+    background: white;
+    color: #4caf50;
+  }
+  
+  .user-list table td .delete-button {
+    background: #e74c3c;
+    color: white;
+    border: 1px solid #e74c3c;
+  }
+  
+  .user-list table td .delete-button:hover {
+    background: white;
+    color: #e74c3c;
+  }
+  
+  .popup {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 20px;
+  }
+  
+  .popup-content .popup-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  .popup-content .popup-button.delete-button {
+    background: #e74c3c;
+    color: white;
+    border: 1px solid #e74c3c;
+  }
+  
+  .popup-content .popup-button.delete-button:hover {
+    background: white;
+    color: #e74c3c;
+  }
+  
+  .popup-content .popup-button.cancel-button {
+    background: #ccc;
+    color: black;
+    border: 1px solid #ccc;
+  }
+  
+  .popup-content .popup-button.cancel-button:hover {
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+  }
+  

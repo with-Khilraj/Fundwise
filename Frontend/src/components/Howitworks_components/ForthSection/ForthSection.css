@@ -1,0 +1,51 @@
+/* StartCampaignComponent.css */
+.startCampaignContainer {
+    display: flex;
+    align-items: center;
+    background-color: #e6e3e3;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    width: 1115px; /* Adjust based on your layout needs */
+    margin: auto; /* Center the container if needed */
+    margin-bottom: 50px;
+  }
+  
+  .fistsImage {
+
+    height: 30vh; /* Adjust based on your image size */
+    margin-right: 50px;
+  }
+  
+  .campaignTextContainer {
+    flex-grow: 1;
+  }
+  
+  .campaignTitle {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .campaignDescription {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .startButton {
+    background-color: #fff; /* Example blue */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .startButton i {
+    margin-right: 10px;
+  }
+  

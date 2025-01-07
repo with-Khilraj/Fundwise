@@ -1,0 +1,18 @@
+.search-intput{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.search-intput .search-text{
+    margin: 0;
+    border: none;
+    background-color: #F3F8F7;
+    padding-left: 31px;
+    padding-right: 400px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 50px;
+    font-size: 16px; 
+}

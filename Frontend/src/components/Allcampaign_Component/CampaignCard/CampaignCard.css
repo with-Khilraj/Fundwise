@@ -1,0 +1,134 @@
+.campaign-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  width: 100%; /* Ensure it takes full width in its container */
+  max-width: 100%;
+}
+
+.campaign-card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.campaign-card-content {
+  padding: 10px;
+}
+
+.campaign-card-title {
+  font-size: 1.20em;
+  margin-bottom: 15px;
+}
+
+.campaign-card-description {
+  color: #666;
+  font-size: 0.950em;
+  margin-bottom: 10px;
+}
+
+.campaign-card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  font-size: 0.875em;
+  margin-bottom: 10px;
+}
+
+.campaign-card-raiser,
+.campaign-card-supporters,
+.campaign-card-comments,
+.days-left {
+  margin: 0;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 5px; /* Small padding below the progress bar */
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 4px 0 0 4px;
+}
+
+.campaign-card-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.days-left {
+  font-size: 0.875em;
+  color: #555;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.campaign-card-raiser {
+  font-weight: bold;
+  color: rgb(237, 87, 87);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .campaign-card {
+    flex-direction: column;
+  }
+
+  .campaign-card-content {
+    padding: 5px;
+  }
+
+  .campaign-card-title {
+    font-size: 1em;
+  }
+
+  .campaign-card-description {
+    font-size: 0.75em;
+  }
+
+  .campaign-card-info {
+    grid-template-columns: 1fr;
+  }
+
+  .days-left {
+    text-align: left;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .campaign-card {
+    flex-direction: column;
+  }
+
+  .campaign-card-content {
+    padding: 5px;
+  }
+
+  .campaign-card-title {
+    font-size: 0.9em;
+  }
+
+  .campaign-card-description {
+    font-size: 0.7em;
+  }
+
+  .campaign-card-info {
+    grid-template-columns: 1fr;
+  }
+
+  .days-left {
+    text-align: left;
+    margin-top: 5px;
+  }
+}

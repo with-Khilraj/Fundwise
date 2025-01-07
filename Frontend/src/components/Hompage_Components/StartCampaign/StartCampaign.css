@@ -1,0 +1,55 @@
+.start-campaign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+    /* padding: 50px 140px; */
+    background-color: #f9f9f9;
+    margin-bottom: 50px;
+  }
+  
+  .content {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  
+  .illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .illustration img {
+    margin-left: 100px;
+    padding: 20px 20px;
+    object-fit: fill;
+    height: 50vh;
+  }
+  
+  .start-campaign h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .start-campaign p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .start-campaign-button {
+    background-color: #5280D8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .start-campaign-button:hover {
+    background-color: #45a049;
+  }
+  

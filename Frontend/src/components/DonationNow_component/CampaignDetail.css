@@ -1,0 +1,514 @@
+.campaign-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.campaign-title {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.campaign-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.campaign-left {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.campaign-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campaign-image {
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.campaign-description {
+  margin-top: 20px;
+}
+
+.campaign-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.campaign-description p {
+  width: 80%;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.donate-button {
+  background-color: #5280d8;
+  color: #fff;
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 70%;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.share-button {
+  background-color: #fff;
+  color: #5280d8;
+  padding: 16px 30px;
+  border: 1px solid #5280d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 70%;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.campaign-stats {
+  margin-right: 174px;
+  margin-bottom: 20px;
+}
+
+.raised-amount {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.goal-amount {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #5280d8;
+}
+
+.supporters,
+.days-left {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+
+
+.campaign-story {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid #5280d8;
+  font-weight: bold;
+}
+
+.campaign-description {
+  margin-top: 20px;
+}
+
+.campaign-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.campaign-description p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add these styles to your existing CSS */
+.tabs {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border-bottom: 2px solid #5280d8;
+  font-weight: bold;
+}
+
+.tab-content {
+  text-align: justify;
+  max-width: 840px;
+  margin-top: 20px;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h2 {
+  margin-bottom: 10px;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  margin-bottom: 10px;
+}
+
+.comments-section form {
+  margin-top: 20px;
+}
+
+.comments-section form div {
+  margin-bottom: 10px;
+}
+
+.comments-section form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comments-section form input,
+.comments-section form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.comments-section form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments-section form button:hover {
+  background-color: #45a049;
+}
+
+/* popup social media */
+/* Donation Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content-donation {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+.modal-content-donation h2 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal-donate-button {
+  background-color: #5280d8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.modal-donate-button:hover {
+  background-color: #45a049;
+}
+
+
+
+.donation-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.campaign-detail-container.blur {
+  filter: blur(5px);
+}
+
+/* Popup Social Media */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content-donation{
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-share-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #5280d8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.modal-share-button:hover,
+.modal-close-button:hover {
+  opacity: 0.9;
+}
+
+.donation-submit-button{
+  cursor: pointer;
+  color: #ffff;
+  background-color: #5280d8;
+  padding: 10px;
+  border: none;
+}
+
+/* donors */
+
+.donors-section {
+  margin-top: 20px;
+}
+
+.donors-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.donors-section ul {
+  width: 50%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.donors-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.donors-section li div strong {
+  font-size: 18px;
+  color: #4caf50;
+}
+
+.donors-section li div p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 0;
+}
+
+.donors-section li .donor-amount {
+  font-size: 20px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.donors-section li .donor-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+/* TOp donor */
+.top-donators {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.top-donators h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.top-donators ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-donators ul li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.donor-info {
+  display: flex;
+  align-items: center;
+}
+
+.donor-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.donor-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.donor-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.donor-date {
+  font-size: 12px;
+  color: #666;
+}
+
+.donor-amount {
+  font-size: 16px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* TOp donor */
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .donors-section li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .donors-section li div {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .donors-section li {
+    padding: 10px;
+  }
+
+  .donors-section li .donor-amount {
+    font-size: 18px;
+  }
+}
+
+
+/* Organizer css */
+
+.campaign-organizer {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.campaign-organizer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.campaign-organizer p {
+  font-size: 16px;
+  color: #333;
+}

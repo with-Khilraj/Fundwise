@@ -1,0 +1,26 @@
+
+.title-contain .contain-title{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 210px;
+    margin-right: 210px;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+.contain-title li a{
+    border: 1px solid #5280D8;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color:#5280D8;
+    color: #5280D8;
+}
+.contain-title li a:hover{
+    background-color: #5280D8;
+    color: #ffff;
+}
+
+
+
+

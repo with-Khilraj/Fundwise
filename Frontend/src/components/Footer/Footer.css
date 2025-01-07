@@ -1,0 +1,35 @@
+.footer {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  background-color: #000000;
+  color: white;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 52px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+    margin-left: 52px;
+  margin-bottom: 10px;
+}

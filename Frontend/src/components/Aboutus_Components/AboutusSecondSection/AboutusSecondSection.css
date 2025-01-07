@@ -1,0 +1,63 @@
+/* UserGroups.css */
+.userGroupsContainer {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .textContent {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  .headerText {
+    font-size: 30px;
+    color: #333;
+  }
+  .whouse{
+    color: #5F5F75;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+  .paragraph{
+    max-width: 400px;
+    font-size: 20px;
+  }
+  
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns of cards */
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .userCard {
+    background-color: #5280D8;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .groupImage {
+    width: 50px; /* Adjust size as necessary */
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .cardTitle {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+  }
+  

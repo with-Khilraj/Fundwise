@@ -1,0 +1,26 @@
+/* PlatformIntroduction.css */
+.platformContainer {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* You can adjust the font family as needed */
+  }
+  
+  .platformTitle {
+    font-size: 32px;
+    color: #333; /* Adjust the color to match your design */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .platformDescription {
+    font-size: 18px;
+    color: #666; /* Adjust the color to match your design */
+    margin-bottom: 30px; /* Space above the image */
+  }
+  
+  .teamImage {
+    width: 50%; /* Adjust width as necessary */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

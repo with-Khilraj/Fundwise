@@ -1,0 +1,72 @@
+/* LoginModal.css - Updated styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 50px;
+  width: 30%;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.modal-title {
+  color: #5280D8;
+  margin-bottom: 20px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-action-button, .modal-switch-button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #5280D8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-action-button:hover, .modal-switch-button:hover {
+  background-color: #33589f;
+}
+
+.modal-link {
+  color: #5280D8;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+.modal-checkbox-label {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.modal-message {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,139 @@
+.contact-form-section {
+  width: 100%;
+  
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.contact-form-section h2 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form-container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1; /* Ensure it stays above the background */
+}
+
+.contact-form-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%; /* Cover half of the section */
+  top: 0;
+  left: 0;
+  background-color: #5280d8;
+  z-index: -1;
+}
+
+.contact-form-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 50%;
+  left: 0;
+  background-color: #5280d8;
+  clip-path: ellipse(50% 100% at 50% 100%);
+  z-index: -1;
+}
+
+.contact-form {
+  z-index: 1;
+  position: relative;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.contact-form .form-group input {
+  height: 40px;
+}
+
+.contact-form .btn-submit {
+  width: 100%;
+  background-color: #5280d8;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact-form .btn-submit:hover {
+  background-color: #4169b7;
+}
+
+.additional-sections {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.additional-sections h3 {
+  margin-top: 30px;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.additional-sections p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.department-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.department-card {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.department-card h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.department-card p {
+  font-size: 0.9em;
+}

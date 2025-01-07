@@ -1,0 +1,51 @@
+/* SeconSection.css */
+.campaignContainer {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif; /* You can use any font family you prefer */
+  }
+  
+  .mainText {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px 0; /* Consolidated margin for top and bottom */
+  }
+  
+  .campaignImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .infoSections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .infoSection {
+    width: 48%; /* Each section takes roughly half of the container width */
+    text-align: left;
+  }
+  
+  .infoSection p {
+    margin-bottom: 10px;
+  }
+  
+  .circleButton {
+    background-color: #1e88e5; /* Example blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    width: 50px; /* Fixed size for circle */
+    height: 50px; /* Fixed size for circle */
+    border-radius: 50%; /* Makes the button round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  
